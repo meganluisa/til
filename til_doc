@@ -1,6 +1,6 @@
 #08/23/2020
 Today I learned the JavaScript-style notation shortcut when assigning values to hash symbols.
-<code>person1 = {fname: Megan, lname: White} </code>
+`person1 = {fname: Megan, lname: White}`
 
 #08/24/2020
 Terminal can run within VSCode
