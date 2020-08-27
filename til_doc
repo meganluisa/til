@@ -11,7 +11,7 @@ Terminal can run within VSCode
 
 #08/23/2020
 Today I learned the JavaScript-style notation shortcut when assigning values to hash symbols.
->person1 = {fname: Megan, lname: White}
+> person1 = {fname: Megan, lname: White}
 
 
 
