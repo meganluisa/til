@@ -1,3 +1,8 @@
+### 08/27/2020
+- the great resource for random free APIs: https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
+- the tty-prompt Ruby gem that allows complex formatting for collecting user-inputs, like providing a list for the user to select from
+- create a variable that is stored in your terminal environment and can be used in your code with ENV[VARIABLE]
+
 
 ### 08/26/2020
 I learned about decomposition coding, break down into pieces and test.
