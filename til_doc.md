@@ -1,3 +1,6 @@
+### 09/01/2020
+The controller in Ruby on Rails inherits a variable called "params" that allows you to pull information from user URL parameters (the ? after the path). You would grab the query parameters like you would a hash, like `params["parameter_name"]`.
+
 ### 08/30/2020
 Model, Viewer, Controller concepts in action using Ruby on Rails. I can run my own server from my computer AND can publish my own websites for free on GitHub
 
