@@ -1,3 +1,6 @@
+### 09/02/2020
+Sensitive info parameters can be passed in an HTTP request using a POST method and instead of using the url to pass parameters, you use the HTTP body.
+
 ### 09/01/2020
 The controller in Ruby on Rails inherits a variable called "params" that allows you to pull information from user URL parameters (the ? after the path). You would grab the query parameters like you would a hash, like `params["parameter_name"]`.
 
