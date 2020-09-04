@@ -1,3 +1,6 @@
+### 09/03/2020
+* Learned how to turn my API to a Restful API using naming conventions defined by
+
 ### 09/02/2020
 Sensitive info parameters can be passed in an HTTP request using a POST method and instead of using the url to pass parameters, you use the HTTP body.
 
