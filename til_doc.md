@@ -1,3 +1,8 @@
+### 09/07/2020
+* Learned I can dry up views files using partial files. Referencing a partial file will reuse the JSON in there: ```render partial: "product.json.jb", locals: { product: @product }```
+* Change Ruby on Rails databases with migration files and the Active Migration class. https://edgeguides.rubyonrails.org/active_record_migrations.html
+* .new is a new domain that automatically opens new documents for the desired application. "sheet.new" opens a blank Google Sheets
+
 ### 09/03/2020
 * Learned how to turn my API to a Restful API using naming conventions defined by
 
