@@ -1,3 +1,9 @@
+### 09/08/2020
+Ruby ApplicationRecord class can set validationsfor user inputs. For example
+```validates :first_name, presence: true```
+will ensure the user entered a first_name parameter. You can provide error messages with
+```@user.errors.full_messages```
+
 ### 09/07/2020
 * Learned I can dry up views files using partial files. Referencing a partial file will reuse the JSON in there: ```render partial: "product.json.jb", locals: { product: @product }```
 * Change Ruby on Rails databases with migration files and the Active Migration class. https://edgeguides.rubyonrails.org/active_record_migrations.html
