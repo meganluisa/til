@@ -1,3 +1,6 @@
+### 09/09/2020
+Can condense code in controller file using scopes: https://www.rubyguides.com/2019/10/scopes-in-ruby-on-rails/. You essentially create your own function in the model file that you reference in the controller.
+
 ### 09/08/2020
 Ruby ApplicationRecord class can set validationsfor user inputs. For example
 ```validates :first_name, presence: true```
