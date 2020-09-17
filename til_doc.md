@@ -1,3 +1,17 @@
+### 09/16/2020
+Ruby builds the through table method to connect tables that have many-to-many relationships.
+It is normally: 
+```
+def products
+  category_products.map do |category_product|
+    category_product.product
+  end
+end
+```
+
+But Rails writes this for you in your model rb file with:
+``` has_many :categories, through: :category_products ``` 
+
 ### 09/09/2020
 Can condense code in controller file using scopes: https://www.rubyguides.com/2019/10/scopes-in-ruby-on-rails/. You essentially create your own function in the model file that you reference in the controller.
 
