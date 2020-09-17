@@ -11,7 +11,7 @@ end
 
 But Rails writes this for you in your model rb file with:
 ```
-has_many :categories, through: :category_product 
+has_many :categories, through: :category_products 
 ``` 
 
 ### 09/09/2020
