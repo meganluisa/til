@@ -1,3 +1,6 @@
+### 10/06/2020
+In loading JavaScript file that needs to be loaded at the bottom of the HTML document, you can still include it in the head of a document if you add the attribute "defer"
+
 ### 09/16/2020
 Ruby builds the through table method to connect tables that have many-to-many relationships.
 It is normally: 
