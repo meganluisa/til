@@ -1,3 +1,6 @@
+### 10/22/2020
+In JavaScript, a variable can be assigned using short-circuit evaluation: `let x = variable || 'Default!'` 
+
 ### 10/06/2020
 In loading JavaScript file that needs to be loaded at the bottom of the HTML document, you can still include it in the head of a document if you add the attribute "defer"
 
