@@ -1,3 +1,25 @@
+### 11/05/2020
+- React uses simple components and class components to build views
+- Example class component: 
+```
+class ShoppingList extends React.Component {
+  render() {
+    return (
+      <div className="shopping-list">
+        <h1>Shopping List for {this.props.name}</h1>
+        <ul>
+          <li>Instagram</li>
+          <li>WhatsApp</li>
+          <li>Oculus</li>
+        </ul>
+      </div>
+    );
+  }
+}
+
+// Example usage: <ShoppingList name="Mark" />
+```
+
 ### 10/22/2020
 - In JavaScript, a variable can be assigned using short-circuit evaluation: `let x = variable || 'Default!'` 
 - Also, string interpolation is completed using `${variable}.`
