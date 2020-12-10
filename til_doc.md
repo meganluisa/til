@@ -1,3 +1,10 @@
+### 12/09/2020
+- This is the skeleton structure to run a command in a Docker container:
+`docker run [OPTIONS] IMAGE [COMMAND] [ARG...]`
+
+- To create a Docker container and image, you can do so using a repo from GitHub. The code below defines a name for the new image and downloads a repo from GitHub to create and run the image as a container :
+`docker run --name repo alpine/git clone https://github.com/docker/getting-started.git`
+
 ### 11/05/2020
 - React uses simple components and class components to build views
 - Example class component: 
