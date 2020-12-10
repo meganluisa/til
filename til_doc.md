@@ -5,6 +5,9 @@
 - To create a Docker container and image, you can do so using a repo from GitHub. The code below defines a name for the new image and downloads a repo from GitHub to create and run the image as a container :
 `docker run --name repo alpine/git clone https://github.com/docker/getting-started.git`
 
+To run a container that has been added to your project, you must map the container port to your host's port with a -p argument. Also add -d argument to run container in detached mode (in the background):
+`docker run -dp 3000:3000 getting-started`
+
 ### 11/05/2020
 - React uses simple components and class components to build views
 - Example class component: 
