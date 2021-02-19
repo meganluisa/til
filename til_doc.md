@@ -1,3 +1,11 @@
+### 2/18/2021
+I can essentially create a google search link in any ofmy pages! With a HTML form, there is an action attribute that you can specify where the data the form collects is sent to. So by inserting the code below in my form, a google search could be made.
+`<form action='http://www.google.com/search' method='GET'>
+    <input type='text' name='q' placeholder='Your search'/>
+    <input type='sumbit' value='Save'/>
+ </form>
+`
+
 ### 2/16/2021
 Today I learned of a great API offered by Mapbox, where you can map how far you can go in a specified distance by walking, bike, and car from your current location.
 https://docs.mapbox.com/playground/isochrone/
